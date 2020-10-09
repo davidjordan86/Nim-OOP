@@ -1,0 +1,13 @@
+D:\Documents\Programming\C#\Nim\Vim\Vim\bin\Debug\netcoreapp3.1\Vim.exe
+D:\Documents\Programming\C#\Nim\Vim\Vim\bin\Debug\netcoreapp3.1\Vim.deps.json
+D:\Documents\Programming\C#\Nim\Vim\Vim\bin\Debug\netcoreapp3.1\Vim.runtimeconfig.json
+D:\Documents\Programming\C#\Nim\Vim\Vim\bin\Debug\netcoreapp3.1\Vim.runtimeconfig.dev.json
+D:\Documents\Programming\C#\Nim\Vim\Vim\bin\Debug\netcoreapp3.1\Vim.dll
+D:\Documents\Programming\C#\Nim\Vim\Vim\bin\Debug\netcoreapp3.1\Vim.pdb
+D:\Documents\Programming\C#\Nim\Vim\Vim\obj\Debug\netcoreapp3.1\Vim.csprojAssemblyReference.cache
+D:\Documents\Programming\C#\Nim\Vim\Vim\obj\Debug\netcoreapp3.1\Vim.AssemblyInfoInputs.cache
+D:\Documents\Programming\C#\Nim\Vim\Vim\obj\Debug\netcoreapp3.1\Vim.AssemblyInfo.cs
+D:\Documents\Programming\C#\Nim\Vim\Vim\obj\Debug\netcoreapp3.1\Vim.csproj.CoreCompileInputs.cache
+D:\Documents\Programming\C#\Nim\Vim\Vim\obj\Debug\netcoreapp3.1\Vim.dll
+D:\Documents\Programming\C#\Nim\Vim\Vim\obj\Debug\netcoreapp3.1\Vim.pdb
+D:\Documents\Programming\C#\Nim\Vim\Vim\obj\Debug\netcoreapp3.1\Vim.genruntimeconfig.cache
