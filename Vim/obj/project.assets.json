@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\Programming\\C#\\Nim\\Vim\\Vim\\Nim.csproj",
+      "projectUniqueName": "D:\\Documents\\Programming\\C#\\Nim-OOP\\Vim\\Nim.csproj",
       "projectName": "Nim",
-      "projectPath": "D:\\Documents\\Programming\\C#\\Nim\\Vim\\Vim\\Nim.csproj",
+      "projectPath": "D:\\Documents\\Programming\\C#\\Nim-OOP\\Vim\\Nim.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\Programming\\C#\\Nim\\Vim\\Vim\\obj\\",
+      "outputPath": "D:\\Documents\\Programming\\C#\\Nim-OOP\\Vim\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",

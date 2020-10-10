@@ -11,3 +11,16 @@ D:\Documents\Programming\C#\Nim\Vim\Vim\bin\Debug\netcoreapp3.1\Nim.pdb
 D:\Documents\Programming\C#\Nim\Vim\Vim\obj\Debug\netcoreapp3.1\Nim.dll
 D:\Documents\Programming\C#\Nim\Vim\Vim\obj\Debug\netcoreapp3.1\Nim.pdb
 D:\Documents\Programming\C#\Nim\Vim\Vim\obj\Debug\netcoreapp3.1\Nim.genruntimeconfig.cache
+D:\Documents\Programming\C#\Nim-OOP\Vim\bin\Debug\netcoreapp3.1\Nim.exe
+D:\Documents\Programming\C#\Nim-OOP\Vim\bin\Debug\netcoreapp3.1\Nim.deps.json
+D:\Documents\Programming\C#\Nim-OOP\Vim\bin\Debug\netcoreapp3.1\Nim.runtimeconfig.json
+D:\Documents\Programming\C#\Nim-OOP\Vim\bin\Debug\netcoreapp3.1\Nim.runtimeconfig.dev.json
+D:\Documents\Programming\C#\Nim-OOP\Vim\bin\Debug\netcoreapp3.1\Nim.dll
+D:\Documents\Programming\C#\Nim-OOP\Vim\bin\Debug\netcoreapp3.1\Nim.pdb
+D:\Documents\Programming\C#\Nim-OOP\Vim\obj\Debug\netcoreapp3.1\Nim.csprojAssemblyReference.cache
+D:\Documents\Programming\C#\Nim-OOP\Vim\obj\Debug\netcoreapp3.1\Nim.AssemblyInfoInputs.cache
+D:\Documents\Programming\C#\Nim-OOP\Vim\obj\Debug\netcoreapp3.1\Nim.AssemblyInfo.cs
+D:\Documents\Programming\C#\Nim-OOP\Vim\obj\Debug\netcoreapp3.1\Nim.csproj.CoreCompileInputs.cache
+D:\Documents\Programming\C#\Nim-OOP\Vim\obj\Debug\netcoreapp3.1\Nim.dll
+D:\Documents\Programming\C#\Nim-OOP\Vim\obj\Debug\netcoreapp3.1\Nim.pdb
+D:\Documents\Programming\C#\Nim-OOP\Vim\obj\Debug\netcoreapp3.1\Nim.genruntimeconfig.cache
