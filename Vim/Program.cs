@@ -45,7 +45,7 @@ namespace Nim
                 {
                     Console.WriteLine("Which pile do you want to take from?");
                     int.TryParse(Console.ReadLine(), out selectedPile);
-                } while (selectedPile < 1 || selectedPile > board.Length);
+                } while (selectedPile < 1 || selectedPile > board.Length || board[selectedPile - 1].NumberOfObjects < 1);
 
 
                 // More valid input: how many stones to remove
@@ -69,7 +69,7 @@ namespace Nim
                 Opponent.TakeTurn(board, out pile, out stones, out message);
 
                 // Apply the computer's turn
-                board[selectedPile].RemoveStones(numOfStonesToRemove);
+                board[pile].RemoveStones(stones);
 
                 // Clear and update the board
                 Output.UpdateBoard(board);
@@ -78,7 +78,26 @@ namespace Nim
                 Console.WriteLine(message);
 
             }
+        }
 
+        bool CheckForEndGame(Heap[] board)
+        {
+            // Check for end game
+            int highestPile = 0;
+            foreach (var item in board)
+            {
+                if (item.NumberOfObjects > highestPile) { highestPile = item.NumberOfObjects; }
+            }
+
+            // If the largest pile in the game is 1 stone or less then the game is over
+            if (highestPile <= 1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }
