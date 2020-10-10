@@ -38,8 +38,6 @@ namespace Nim
             // GAME LOOP
             while (true)
             {
-                // Clear and update the board at the beginning of each round
-                Output.UpdateBoard(board);
 
                 // Getting valid input from user: which pile they want to select
                 int selectedPile;
@@ -62,7 +60,23 @@ namespace Nim
                 board[selectedPile-1].RemoveStones(numOfStonesToRemove);
 
                 // Now the computer can take it's turn
-                // We send it the current state of the board
+                // We send it the current state of the board, as well as two empty ints
+                // We will pass the ints by referance so the function can override them
+                // This is because we are returning mutiple variables from the function
+                int pile;
+                int stones;
+                string message;
+                Opponent.TakeTurn(board, out pile, out stones, out message);
+
+                // Apply the computer's turn
+                board[selectedPile].RemoveStones(numOfStonesToRemove);
+
+                // Clear and update the board
+                Output.UpdateBoard(board);
+
+                // print out what the computer did
+                Console.WriteLine(message);
+
             }
 
         }

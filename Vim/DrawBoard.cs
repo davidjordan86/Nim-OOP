@@ -20,31 +20,21 @@ namespace Nim
                 }
             }
 
-            for (int i = 0; i < LargestPile + 1; i++)
-            {
-                for (int j = 0; j < HeapArray.Length; j++)
-                {
-                    if (LargestPile - i >= HeapArray[j].NumberOfObjects)
-                    {
-                        Console.Write("  ");
-                    }
-                    else
-                    {
-                        Console.Write(LargestPile - i + " ");
-                    }
-                }
-                Console.Write("\n");
-            }
+            UpdateBoard(HeapArray);
         }
 
         public void UpdateBoard(Heap[] HeapArray)
         {
             Console.Clear();
-            for (int i = 0; i < LargestPile + 1; i++)
+
+            // From 1 to the largest number in a pile... ROW
+            for (int i = 0; i < LargestPile; i++)
             {
+                // For each pile... COLUMN
                 for (int j = 0; j < HeapArray.Length; j++)
                 {
-                    if (LargestPile - i >= HeapArray[j].NumberOfObjects)
+                    // 
+                    if (LargestPile - i > HeapArray[j].NumberOfObjects)
                     {
                         Console.Write("  ");
                     }
