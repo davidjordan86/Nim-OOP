@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.Design;
+using System.Runtime.CompilerServices;
 
 namespace Nim
 {
@@ -58,6 +59,12 @@ namespace Nim
 
                 // Remove the number of stones the player wants from the pile they choose
                 board[selectedPile-1].RemoveStones(numOfStonesToRemove);
+                bool endOfGame = CheckForEndGame(board);
+
+                if (endOfGame)
+                {
+                    EndGame("You");
+                }
 
                 // Now the computer can take it's turn
                 // We send it the current state of the board, as well as two empty ints
@@ -71,8 +78,15 @@ namespace Nim
                 // Apply the computer's turn
                 board[pile].RemoveStones(stones);
 
+
                 // Clear and update the board
                 Output.UpdateBoard(board);
+                endOfGame = CheckForEndGame(board);
+
+                if (endOfGame)
+                {
+                    EndGame("Computer");
+                }
 
                 // print out what the computer did
                 Console.WriteLine(message);
@@ -80,7 +94,7 @@ namespace Nim
             }
         }
 
-        bool CheckForEndGame(Heap[] board)
+        static bool CheckForEndGame(Heap[] board)
         {
             // Check for end game
             int highestPile = 0;
@@ -90,7 +104,7 @@ namespace Nim
             }
 
             // If the largest pile in the game is 1 stone or less then the game is over
-            if (highestPile <= 1)
+            if (highestPile < 1)
             {
                 return true;
             }
@@ -98,6 +112,13 @@ namespace Nim
             {
                 return false;
             }
+        }
+
+        static void EndGame(string winner)
+        {
+            Console.WriteLine("GAME OVER {0} is the winner!", winner);
+            Console.ReadKey();
+            Environment.Exit(0);
         }
     }
 }
